@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 4
+names: ["angle", "fracture", "line", "messed_up_angle"]
+
+roboflow:
+  workspace: project
+  project: intelligent-bone-fracture-detection-system
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/project/intelligent-bone-fracture-detection-system/dataset/1
